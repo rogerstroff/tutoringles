@@ -1,0 +1,4 @@
+gradio
+google-genai
+edge-tts
+python-dotenv
