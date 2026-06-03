@@ -18,7 +18,7 @@ python-dotenv
 
 Instalação:
 ```bash
-git clone https://github.com/SEU_USUARIO/tutoringles.git
+git clone https://github.com/rogerstroff/tutoringles.git
 cd tutoringles
 python -m venv venv
 venv\Scripts\activate
