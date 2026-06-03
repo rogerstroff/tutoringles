@@ -1,11 +1,14 @@
+import os
 import re
 import asyncio
 import edge_tts
 import gradio as gr
 from google import genai
+from dotenv import load_dotenv
 
-key = "MINHA CHAVE"
-client = genai.Client(api_key=key)
+load_dotenv()
+
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 history = []
 
